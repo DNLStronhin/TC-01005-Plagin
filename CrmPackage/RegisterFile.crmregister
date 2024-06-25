@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Register xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/crm/2011/tools/pluginregistration">
+  <Solutions>
+    <Solution Assembly="TC_01005_Plagin.TC01005.dll" Id="00000000-0000-0000-0000-000000000000" IsolationMode="Sandbox" SourceType="Database">
+      <PluginTypes>
+        <clear />
+        <Plugin Description="Plug-in to new_SendCustomEmailAction of any Entity" FriendlyName="new_SendCustomEmailAction of any Entity" Name="TC_01005_Plagin.TC01005.PreOperationSendCustomEmailAction" Id="00000000-0000-0000-0000-000000000000" TypeName="TC_01005_Plagin.TC01005.PreOperationSendCustomEmailAction">
+          <Steps>
+            <clear />
+            <Step AsyncAutoDelete="false" Name="new_SendCustomEmailAction of any Entity" Description="new_SendCustomEmailAction of any Entity" Id="00000000-0000-0000-0000-000000000000" ImpersonatingUserId="00000000-0000-0000-0000-000000000000" MessageName="new_SendCustomEmailAction" Mode="Synchronous" PrimaryEntityName="none" Rank="1" Stage="PreInsideTransaction" SupportedDeployment="ServerOnly" MessageEntityId="00000000-0000-0000-0000-000000000000">
+              <Images />
+            </Step>
+          </Steps>
+        </Plugin>
+      </PluginTypes>
+    </Solution>
+  </Solutions>
+  <XamlWorkflows />
+  <DataProviders />
+</Register>
